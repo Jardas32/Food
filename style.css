@@ -1,0 +1,1001 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(10, 9, 15, 0.979);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+} 
+
+.food {
+    position: absolute;
+    /* margin-top: 100px; */
+    background-color: rgba(255, 255, 255, 1);
+    width: 1440px;
+    height: 5498px;
+    display: flex;
+}
+
+.box1 {
+    /* background-color: aquamarine; */
+    position: relative;
+    width: 1287px;
+    height: 678.85px;
+    margin-left: 150px;
+}
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200000;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(195, 195, 195, 0.408);
+}
+
+.hed {
+    background-color: rgba(255, 255, 255, 1);
+    width: 1140px;
+    height: 46px;
+    display: flex;
+}
+
+.hed nav ul {
+    height: 46px;
+    display: flex;
+}
+
+.hed nav ul li {
+    position: relative;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.count {
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    background-color: red;
+    color: #fafafa;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+}
+
+nav ul li p {
+    cursor: pointer;
+    color: rgba(21, 12, 1, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.hed nav ul li:hover p {
+    color: rgba(220, 120, 11, 1);
+    text-decoration: underline;
+}
+
+nav ul li a {
+    color: rgba(21, 12, 1, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.hed nav ul li:hover a {
+    color: rgba(220, 120, 11, 1);
+    text-decoration: underline;
+}
+
+.bt1 a {
+    position: absolute;
+    z-index: 6;
+    right: 130px;
+    background-color: rgba(220, 120, 11, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    width: 155px;
+    height: 46px;
+    font-size: 16px;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img0 {
+    position: relative;
+    background-color: rgba(127, 255, 212, 0);
+    width: 801px;
+    height: 670px;
+    margin-left: 486px;
+    top: 45px;
+}
+
+.logo {
+     animation: scal 2s linear infinite;
+     transition: 0.4s;
+}
+
+@keyframes scal {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.imgten {
+    position: absolute;
+    z-index: 100;
+    right: 297.2px;
+    bottom: 8.85px;
+    width: 333.59px;
+    height: 53.75px;
+    transform: rotate(6.27deg);
+}
+
+.img1 {
+    position: relative;
+    width: 800px;
+    height: 640px;
+}
+
+.text {
+    position: absolute;
+    z-index: 44;
+    left: 0px;
+    bottom: 108px;
+    width: 555px;
+    height: 356px;
+}
+
+.making {
+   font-size: 48.83px;
+   font-family: "Philosopher";
+   color: rgba(21, 12, 1, 1);
+}
+
+.ther {
+    margin-top: 42px;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgba(21, 12, 1, 1);
+}
+
+.bt3 a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.bt3 {
+    background-color: rgba(220, 120, 11, 1);
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+    width: 158px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: "Roboto";
+}
+
+.btf a {
+    color: rgba(220, 120, 11, 1)
+}
+
+.btf {
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 30px;
+    border: 1px solid rgba(220, 119, 11, 0.196);
+}
+
+.features-section {
+    position: absolute;
+    top: 507px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.box2  {
+    position: absolute;
+    left: 180px;
+    top: 815px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1080px;
+    height: 333px;
+}
+
+.ul1 {
+    display: flex;
+    justify-content: start;
+    margin-top: 85.8px;
+}
+
+.h2fea {
+    color: rgba(220, 120, 11, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+}   
+
+.h1food {
+    color: rgba(21, 12, 1, 1);
+    font-size: 32.25px;
+    font-weight: 600;
+    font-weight: "Philosopher";
+    margin-top: 7px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.img01 {
+    width: 88px;
+    height: 88px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 44;
+    top: 0px;
+    left: 100px;
+}
+
+.img00 {
+    width: 44.95px;
+    height: 44.46;
+    position: absolute;
+    z-index: 44;
+    top: 18px;
+    left: 122px;
+}
+
+.img2 {
+    width: 88px;
+    height: 88px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 44;
+    top: 0px;
+    left: 100px;
+}
+
+.img02 {
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    z-index: 44;
+    top: 20px;
+    left: 24px;
+}
+
+.img3 {
+    width: 88px;
+    height: 88px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 44;
+    top: 0px;
+    left: 100px;
+}
+
+.img03 {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    z-index: 44;
+    top: 18px;
+    left: 18px;
+}
+
+.cards {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 228px;
+}
+
+.card2 {
+    margin-left: 390px;
+}
+
+.card3 {
+    margin-left: 780px;
+}
+
+.texh2 {
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+    font-size: 25px;
+    color: rgba(21, 12, 1, 1);
+    font-family: "Philosopher";
+}
+
+.texli {
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.p1 {
+    margin-left: 5px;
+}
+
+.p2 {
+    margin-left: 15px;
+} 
+
+.p3 {
+    margin-left: 80px;
+}
+
+
+                       /* Go-Up */
+                       
+.goup {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: fixed;
+    top: 77%;
+    left: 10px;
+    z-index: 10000;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    border: 1px solid rgb(55, 55, 55);
+}
+
+.goupclass {
+    display: block;
+}
+
+.about-section {
+    position: absolute;
+    top: 1100px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.box3 {
+    position: absolute;
+    left: 0;
+    top: 1027px;
+    width: 1290px;
+    height: 1246.32px;
+}
+
+.imgvec {
+   position: absolute;
+   z-index: 5;
+   top: 70px;
+}
+
+.men {
+    position: absolute;
+    z-index: 7;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1140px;
+    height: 500px;
+    margin: 247.73px 150px 0px 150px;
+    border-radius: 35px;
+}
+
+.foto {
+    width: 555px;
+    height: 500px;
+    border-radius: 35px;
+}
+
+.divbox {
+    position: absolute;
+    right: 50px;
+    top: 90px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 488px;
+    height: 315px;
+}
+
+.h2abo {
+    color: rgba(220, 120, 11, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.stall {
+    position: absolute;
+    bottom: 181px;
+    left: 5px;
+    color: rgba(21, 12, 1, 1);
+    font-size: 31.25px;
+    font-family: "Philosopher";
+}
+
+.many {
+    position: absolute;
+    bottom: 71px;
+    color: rgba(21, 12, 1, 1);
+    font-size: 18px;
+    font-family: "Roboto";
+    
+}
+
+.bottom5 a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.bottom5 {
+    position: absolute;
+    bottom: 0px;
+    left: 3px;
+    background-color: rgba(220, 120, 11, 1);
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-section {
+    position: absolute;
+    top: 1767px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.boxmen {
+    position: absolute;
+    top: 1887px;
+    left: 150px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1140px;
+    height: 206px;
+}
+
+.boxMenu {
+    position: absolute;
+    top: 2090px;
+    left: 150px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1140px;
+    height: 1014px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(3, 446px);
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+
+.div1 {
+    position: relative;
+}
+
+.div1:hover .imgmen1 {
+    transform: scale(1);
+}
+
+.recimg {
+    position: absolute;
+}
+
+.imgmen1 {
+    transform: scale(0.9);
+    position: relative;
+    width: 360px;
+    height: 264px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 10px;
+    transition: 1s;
+}
+
+.h1men {
+    text-align: center;
+    color: rgba(220, 120, 11, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.h2h2 {
+    margin-top: 9px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgba(21, 12, 1, 1);
+    font-size: 31px;
+    line-height: 24px;
+    font-family: "Philosopher";
+}
+
+.pp1, 
+.pp2 {
+    text-align: center;
+    color: rgba(21, 12, 1, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    letter-spacing: 1px;
+}
+
+.boxmen1 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 360px;
+    height: 446px;
+}
+
+.h1ve {
+    width: 245px;
+    position: absolute;
+    color: rgba(21, 12, 1, 1);
+    margin: 21px 128px 20px 25px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Philosopher";
+}
+   
+.dol {
+    position: absolute;
+    left: 299px;
+    top: 290px;
+    color: rgba(21, 12, 1, 1);
+    font-size: 25px;
+    font-family: "Philosopher";
+}
+
+.p01 {
+    position: absolute;
+    color: rgba(21, 12, 1, 1);
+    margin-left: 25px;
+    margin-top: 65px;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.p022 {
+    color: rgba(21, 12, 1, 1);
+    margin-left: 25px;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.plus {
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 186px 25px 25px;
+    background-color: rgba(220, 120, 11, 1);
+    width: 36px;
+    height: 34px;
+    border-radius: 5px;
+}
+
+.stars {
+    position: absolute;
+    margin-top: 126.3px;
+    width: 100px;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.bta1 {
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 30px;
+    background-color: #fafafa00;
+    color: rgba(220, 120, 11, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    width: 142px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid rgba(220, 119, 11, 0.3);
+    transition: all .5s;
+}
+
+.bta1:hover {
+    background-color:  rgba(220, 120, 11, 1);
+    color: #ffffff;
+}
+
+.box4 {
+    position: absolute;
+    top: 3227px;
+    left: 0;
+    width: 1440px;
+    height: 658px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tel {
+    position: absolute;
+    bottom: 4px;
+    margin-left: 872px;
+    border-radius: 59px;
+    filter: drop-shadow(0 0 2px rgba(196, 196, 196, 1));
+}
+
+.box44 {
+    background-color: rgba(251, 241, 231, 0.545);
+    width: 1440px;
+    height: 518px;
+}
+
+.h2tak {
+    color: rgba(220, 120, 11, 1);
+    margin-left: 247px;
+    margin-top: 114px;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.h1f {
+    color: rgba(21, 12, 1, 1);
+    margin-left: 247px;
+    font-size: 31.25px;
+    font-weight: 600;
+    font-weight: "Philosopher";
+    line-height: 40.6px;
+}
+
+.pgap {
+    margin-top: 29px;
+}
+
+.pthe {
+    color: rgba(21, 12, 1, 1);
+    margin-left: 247px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Roboto";
+}
+
+.btvec a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.btg a {
+    color: rgba(21, 12, 1, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.btg {
+    margin-left: 430px;
+    margin-top: 39px;
+    position: absolute;
+    background: transparent;
+    border: 1px solid rgba(21, 12, 1, 0.186);
+    width: 163px;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btvec {
+    margin-left: 247px;
+    margin-top: 39px;
+    position: absolute;
+    background-color: rgba(21, 12, 1, 1);
+    width: 163px;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goo {
+    margin-right: 6px;
+}
+
+.appl {
+    margin-right: 4px;
+}
+
+.box5 {
+    position: absolute;
+    left: 322px;
+    top: 4025px;
+    width: 804px;
+    height: 476px;
+    display: flex;
+    justify-content: center;
+}
+
+.metext {
+    text-align: center;
+    width: 750px;
+    height: 145px;
+}
+
+.metext h2 {
+    color: rgba(220, 120, 11, 1);
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.metext h1 {
+    margin-top: 12px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 31.25px;
+    font-family: "Philosopher";
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.metext p {
+    margin-top: 23px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    line-height: 24px;
+}
+
+.bgr {
+    position: absolute;
+    width: 139.26px;
+    height: 139.36px;
+    margin-top: 163px;
+    left: 309px;
+}
+
+.menudow {
+    position: absolute;
+    bottom: -173.6px;
+    left: -166px;
+    width: 506px;
+    height: 166px;
+}
+
+.menudow {
+    text-align: center;
+}
+
+.menudow p {
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    line-height: 24px;
+}
+
+.imgstar {
+    margin-top: 20px;
+}
+
+.menudow .p1 {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.menudow .p2 {
+    margin-top: -7px;
+    margin-right: 13px;
+    font-size: 12px;
+}
+
+.vector2 {
+    position: absolute;
+    left: -309px;
+    top: 121px;
+}
+
+.vector3 {
+    position: absolute;
+    right: -357px;
+    top: 121px;
+}
+
+.box6 {
+    position: absolute;
+    left: 0;
+    top: 4621px;
+    background-color: rgba(237, 188, 136, 0.222);
+    width: 1440px;
+    height: 448px;
+    text-align: center;
+}
+
+.box6 h2 {
+    margin-top: 115px;
+    color: rgba(220, 120, 11, 1);
+    font-size: 16px;
+    font-family: "Roboto";
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.box6 h1 {
+    margin-top: 15px;
+    color: rgba(21, 12, 1, 1);
+    font-size: 31.25px;
+    font-family: "Philosopher";
+    line-height: 40.6px;
+    font-weight: 600;
+}
+
+.box6 .email {
+    color: rgb(202, 6, 6);
+    background-color: rgba(255, 255, 255, 1);
+    width: 520px;
+    height: 75px;
+    margin-right: 20px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    line-height: 40.6px;
+    font-family: "Roboto";
+}
+
+.box6 .bt7 {
+    cursor: pointer;
+    margin-top: 46px;
+    background-color: rgba(220, 120, 11, 1);
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 345px;
+    width: 156px;
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.box6 .gap {
+    position: absolute;
+    margin-top: 46px;
+    left: 345px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 603px;
+    height: 75px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.box7 {
+    position: absolute;
+    left: 0;
+    top: 5069px;
+    background-color: rgba(37, 37, 37, 1);
+    width: 1440px;
+    height: 429px;
+    display: grid;
+    grid-template-columns: repeat(4, 262px);
+    justify-content: center;
+}
+
+.divimg1 {
+    border: none;
+    position: absolute;
+    margin-top: 137px;
+    left: 196px;
+}
+
+.box7 p {
+    color: rgba(255, 255, 255, 0.666);
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.psaz2 {
+    margin-top: 17px;
+}
+
+.psaz3 {
+    margin-top: 17px;
+}
+
+.divtab2 h1 {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 137px;
+    margin-left: 266px;
+    font-size: 18px;
+    font-family: "Philosopher";
+}
+
+.divtab2 p {
+    color: rgba(255, 255, 255, 0.666);
+    width: 262px;
+    margin-left: 266px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.divtab3 h1 {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 137px;
+    margin-left: 266px;
+    font-size: 18px;
+    font-family: "Philosopher";
+}
+
+.divtab3 p {
+    color: rgba(255, 255, 255, 0.666);
+    margin-top: 20px;
+    width: 262px;
+    margin-left: 266px;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.divtab4 h1 {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 137px;
+    margin-left: 266px;
+    font-size: 18px;
+    font-family: "Philosopher";
+}
+
+.divtab4 p {
+    color: rgba(255, 255, 255, 0.666);
+    margin-top: 20px;
+    width: 262px;
+    margin-left: 266px;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+.divtab4
+ .divicon {
+    cursor: pointer;
+    width: 266px;
+    margin-left: 266px;
+    margin-top: 25px;
+}
+
+.icongap {
+    margin-left: 10px;
+}

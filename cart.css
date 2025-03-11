@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.foods {
+    width: 100%;
+    min-height: 900px;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 100px;
+    justify-content: space-between;
+}
+
+.box1 {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    margin-right: -110px;
+    width: 600px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    position: relative;
+    transition: 0.3s;
+}
+
+.count {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    background-color: red;
+    color: #fafafa;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+}
+
+ul li a {
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+ul li:hover a {
+    color: rgba(220, 120, 11, 1);
+    text-decoration: underline;
+}
+
+.bt1 a {
+    background-color: rgba(220, 120, 11, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    width: 155px;
+    height: 46px;
+    font-size: 16px;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartTitle {
+    position: absolute;
+    top: 70px;
+    color: rgb(78, 77, 77);
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+            /* Корзина */
+
+.carts {
+    width: 605px;
+    min-height: 10px;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart {
+    width: 100%;
+    min-height: 50px;
+    max-height: 510px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+.imgempty {
+    display: none;
+    width: 430px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.newCard {
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    column-gap: 8px;
+    border: 2px solid rgb(224, 223, 220);
+}
+
+.imgcart {
+    width: 120px;
+    height: 110px;
+    margin-left: 5px;
+}
+
+.titlecart {
+    width: 140px;
+    color: rgb(44, 5, 5);
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricecart {
+    width: 40px;
+    color: rgb(195, 2, 2);
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.opiscart {
+    width: 160px;
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.counts {
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counts span {
+    cursor: pointer;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 4px;
+    transition: all .7s;
+}
+
+.counts span:hover {
+    background-color: rgb(187, 187, 187);
+    color: #000000;
+}
+
+.inputcount {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.btClosed {
+    margin-right: 5px;
+    margin-top: -85px;
+    cursor: pointer;
+    background-color: rgb(189, 189, 189);
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.7s;
+}
+
+.btClosed:hover {
+    background-color: rgb(42, 42, 42);
+}
+
+.total {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.total p {
+    margin-top: 3px;
+    color: rgb(0, 0, 0);
+    padding: 4px 6px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+}
+
+.total span {
+    color: black;
+    padding: 4px 30px;
+    font-family: "Roboto", serif;
+    font-size: 22px;
+}
+
+                 /* Footer */
+
+.box7 {
+    margin-top: 50px;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divtab, .divimg1 p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Philosopher", sans-serif;
+}
+
